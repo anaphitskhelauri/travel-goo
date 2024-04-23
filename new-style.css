@@ -1,0 +1,270 @@
+/* edited */
+* {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 100px;
+  margin-top: 26px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: transparent;
+  z-index: 1;
+}
+
+.logo {
+  width: 76px;
+  height: 60px;
+  text-align: center;
+}
+.logo a span {
+  display: block;
+  margin-top: -0.5em;
+}
+
+.logo a {
+  display: block;
+  font-family: laila;
+  font-weight: 700;
+  size: 24px;
+  line-height: 24.6px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.logo span {
+  size: 32px;
+  line-height: 32.8px;
+}
+
+.nav {
+  display: flex;
+  gap: 76px;
+}
+
+.nav a {
+  font-family: Open Sans;
+  font-weight: 600;
+  size: 20px;
+  line-height: 27.24px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.header-icons {
+  display: flex;
+  gap: 39px;
+  align-items: center;
+}
+
+.first-section {
+  width: 100%;
+  height: 1336px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.81),
+      rgba(72, 72, 72, 0),
+      rgba(158, 158, 158, 0) 90%,
+      rgba(255, 255, 255, 1)
+    ),
+    url("assets/images/background.png");
+  background-size: cover;
+  background-position: center bottom;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  z-index: 0;
+  position: relative;
+}
+
+.first-section .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 450px auto;
+  padding: 0 20px;
+  gap: 55px;
+}
+
+.first-section h2 {
+  width: 779px;
+  height: 204px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Open Sans;
+  font-size: 75px;
+  font-weight: 800;
+  text-align: center;
+  line-height: 102.14px;
+}
+
+.first-section p {
+  width: 568px;
+  height: 44px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 21.79px;
+}
+
+.first-section .btn {
+  display: inline-block;
+  padding: 13px 24px;
+  background-color: rgba(0, 166, 81, 1);
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 32.68px;
+}
+
+.first-section .btn:hover {
+  background-color: rgb(6, 90, 46);
+}
+
+/* second section */
+
+.second-container {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 88px;
+}
+
+.second-container h2 {
+  font-family: Open Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 54.47px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+  padding-top: 150px;
+}
+
+.cards {
+  display: flex;
+  padding: 63px 100px;
+  gap: 95px;
+}
+
+.card {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: rgba(249, 249, 249, 1);
+  padding: 44px 38px;
+  border-radius: 15px;
+}
+
+.card img {
+  padding-bottom: 40px;
+}
+
+.card h3 {
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.68px;
+  color: rgba(0, 0, 0, 1);
+  padding-bottom: 19px;
+}
+
+.card p {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.79px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.cards .card:nth-child(2) {
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.15);
+}
+
+.third-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 19px;
+  background-color: rgba(0, 88, 83, 0.05);
+  background-image: url("assets/images/31back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.third-section h2 {
+  width: 518px;
+  font-family: Open Sans;
+  padding-top: 40px;
+  font-weight: 700;
+  font-size: 40px;
+  height: 108px;
+  line-height: 54.47px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+}
+
+.third-section p {
+  width: 495px;
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 16px;
+  height: 44px;
+  line-height: 21.79px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+  padding-top: 35px;
+}
+
+.third-cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 130px;
+  padding: 120px;
+}
+
+.thcard {
+  display: flex;
+  width: 250px;
+  height: 250px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 15px;
+  padding-bottom: 40px;
+}
+
+.thcard h3 {
+  padding-top: 30px;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49.03px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.thcard p {
+  font-family: Open Sans;
+  width: 129px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27.24px;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+}
